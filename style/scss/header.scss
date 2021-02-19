@@ -1,0 +1,21 @@
+// Variables
+$color: white;
+
+// Placeholders
+%headersCentered {
+    text-align: center;
+    color: $color;
+}
+
+body {
+    background-image: url(../../media/bg.jpg);
+    background-size: contain;
+
+    .headerTitle {
+        @extend %headersCentered;    
+    }
+    
+    .subTitle {
+        @extend %headersCentered;
+    }
+}

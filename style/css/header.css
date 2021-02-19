@@ -1,0 +1,11 @@
+body .subTitle, body .headerTitle {
+  text-align: center;
+  color: white;
+}
+
+body {
+  background-image: url(../../media/bg.jpg);
+  background-size: contain;
+}
+
+/*# sourceMappingURL=header.css.map */
